@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Electrostatic Potential of a Point Charge in Front of a Dielectric Interface
-Using the Relaxation Method in Axisymmetric Cylindrical Coordinates (ρ,z)
-
-Problem:
-- Two half-spaces: ε1 for z>0, ε2 for z<0
-- Point charge q at (0,0,a) in medium 1
-- Solve: ∇·[ε(z)∇V] = -ρ with boundary conditions
-"""
 
 import numpy as np
 import matplotlib.pyplot as plt
